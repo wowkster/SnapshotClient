@@ -1,0 +1,19 @@
+{
+  "key.sclient.mods" : "Open Mods Menu",
+  "key.sclient.fps" : "FPS Display",
+  "key.sclient.full_bright" : "Toggle Full Bright",
+  "key.sclient.zoom" : "Zoom",
+  "key.sclient.perspective" : "Perspective",
+  "category.sclient.keys" : "Snapshot Client",
+  "options.full_bright" : "Full Bright",
+  "options.smooth_camera" : "Smooth Camera Zoom",
+  "options.fps" : "FPS Display",
+  "options.zoom_fov" : "Zoom FOV",
+  "options.no_clip" : "Camera No Clip",
+  "options.highlight_players" : "Highlight Players",
+  "options.name_tag_f5" : "Name Tag in F5",
+  "options.coordinates" : "Coordinates",
+  "options.clear_water" : "Clear Water",
+  "options.render_hud" : "Render Debug HUD",
+  "options.mods_title" : "Mods Config Menu"
+}

@@ -1,0 +1,13 @@
+accessWidener	v1	named
+accessible   field   net/minecraft/client/gui/widget/EntryListWidget   field_26846   Z
+accessible   field   net/minecraft/client/gui/widget/EntryListWidget   renderHeader   Z
+accessible   field   net/minecraft/client/gui/widget/EntryListWidget   field_26847   Z
+accessible    field    net/minecraft/client/gui/widget/ButtonListWidget$ButtonEntry    buttons    Ljava/util/List;
+accessible    field    net/minecraft/client/gui/widget/EntryListWidget    width    I
+accessible    field    net/minecraft/client/gui/widget/EntryListWidget    height    I
+accessible    field    net/minecraft/client/gui/widget/EntryListWidget    top    I
+accessible    field    net/minecraft/client/gui/widget/EntryListWidget    bottom    I
+accessible    field    net/minecraft/client/gui/widget/EntryListWidget    right    I
+accessible    field    net/minecraft/client/gui/widget/EntryListWidget    left    I
+accessible    field    net/minecraft/client/render/entity/feature/FeatureRenderer    context    Lnet/minecraft/client/render/entity/feature/FeatureRendererContext;
+

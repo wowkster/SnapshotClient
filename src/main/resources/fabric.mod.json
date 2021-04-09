@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "sclient",
+  "version": "${version}",
+  "name": "SnapshotClient",
+  "description": "Client for the snapshot",
+  "authors": [
+    "Wowkster"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "accessWidener" : "sclient.accesswidener",
+  "icon": "assets/sclient/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.adrianwowk.snapshotclient.client.SnapshotclientClient"
+    ],
+    "main": [
+      "com.adrianwowk.snapshotclient.Snapshotclient"
+    ]
+  },
+  "mixins": [
+    "snapshotclient.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.11.3",
+    "fabric": "*",
+    "minecraft": "1.17-alpha.21.13.a"
+  }
+}
