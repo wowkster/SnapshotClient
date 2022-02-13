@@ -1,30 +1,24 @@
 package com.adrianwowk.snapshotclient.mixin;
 
-import com.adrianwowk.snapshotclient.access.PlayerEntityModelAccess;
 import com.adrianwowk.snapshotclient.client.mods.Mods;
 import net.minecraft.client.network.AbstractClientPlayerEntity;
 import net.minecraft.client.render.OverlayTexture;
 import net.minecraft.client.render.RenderLayer;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.render.VertexConsumerProvider;
-import net.minecraft.client.render.entity.LivingEntityRenderer;
 import net.minecraft.client.render.entity.PlayerModelPart;
 import net.minecraft.client.render.entity.feature.CapeFeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRenderer;
 import net.minecraft.client.render.entity.feature.FeatureRendererContext;
-import net.minecraft.client.render.entity.model.EntityModel;
 import net.minecraft.client.render.entity.model.PlayerEntityModel;
 import net.minecraft.client.util.math.MatrixStack;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EquipmentSlot;
-import net.minecraft.entity.LivingEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
-import net.minecraft.util.Identifier;
 import net.minecraft.util.math.MathHelper;
 import net.minecraft.util.math.Vec3f;
 import org.spongepowered.asm.mixin.Mixin;
-import org.spongepowered.asm.mixin.Shadow;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
@@ -36,7 +30,7 @@ public class CapeFeatureRendererMixin extends FeatureRenderer<AbstractClientPlay
         super(context);
     }
 
-    @Inject(method = "render", at = @At("HEAD"))
+    @Inject(method = "render*", at = @At("HEAD"))
     public void inject(MatrixStack matrixStack, VertexConsumerProvider vertexConsumerProvider, int i, Entity entity, float f, float g, float h, float j, float k, float l, CallbackInfo ci){
         AbstractClientPlayerEntity abstractClientPlayerEntity = (AbstractClientPlayerEntity) entity;
 

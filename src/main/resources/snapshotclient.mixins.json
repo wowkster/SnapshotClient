@@ -4,19 +4,19 @@
   "package": "com.adrianwowk.snapshotclient.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "PlayerEntityModelMixin"
+
   ],
   "client": [
-    "AbstractClientPlayerEntityMixin",
     "CameraMixin",
     "CapeFeatureRendererMixin",
     "ClientPlayerEntityMixin",
     "EntityRendererMixin",
+
     "GameRendererMixin",
     "LivingEntityRendererMixin",
     "MinecraftClientMixin",
-    "MouseMixin",
-    "PlayerListEntryMixin"
+
+    "MouseMixin"
   ],
   "injectors": {
     "defaultRequire": 1

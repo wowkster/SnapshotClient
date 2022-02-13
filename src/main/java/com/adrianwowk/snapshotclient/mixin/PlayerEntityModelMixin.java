@@ -1,6 +1,5 @@
 package com.adrianwowk.snapshotclient.mixin;
 
-import com.adrianwowk.snapshotclient.access.PlayerEntityModelAccess;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.entity.model.BipedEntityModel;
 import net.minecraft.client.render.entity.model.PlayerEntityModel;

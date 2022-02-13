@@ -32,6 +32,7 @@ public class ClientConfig extends Config {
         public static final ConfigItem<Boolean> clearWater = new ConfigItem<>("clear_water", false, "clear_water");
         public static final ConfigItem<Boolean> coordinateDisplay = new ConfigItem<>("coordinate_display", false, "coordinate_display");
         public static final ConfigItem<Boolean> renderHud = new ConfigItem<>("render_hud", true, "render_hud");
+        public static final ConfigItem<Boolean> capeMod = new ConfigItem<>("cape_mod", true, "cape_mod");
         public static final ConfigItem<Double> nameTagScale = new ConfigItem<>("name_tag_scale", 1.0, "name_tag_scale");
         public static final ConfigItem<Double> zoomFOV = new ConfigItem<>("zoom_fov", 10.0, "zoom_fov");
 
